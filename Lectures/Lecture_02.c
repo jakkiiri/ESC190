@@ -7,7 +7,7 @@ int add (int a, int b) {
 }
 
 // function with pointers (similar to python)
-void f (int* p_a){
+void f (int* p_a) {
     *p_a = 43;
 }
 // changes the int value at the address p_a to 43
@@ -37,11 +37,13 @@ int main() {
     /*
     int a = 42;
     int *p_a = &a; // p_a is the address of a
-
+    int **p_p_a = &p_a; // address of an address
     char *s = "abc"; // s is the address where the 'a' is
 
     *p_a = 43; // 43 is now in the address p_a
-    
+    p_a = 0; // change the value of p_a (address) to 0
+    *p_a = a // a = a
+    // don't change the address manually since certain addresses may not be valid (warning)
     */
 
     // testing pointer funciton
