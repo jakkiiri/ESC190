@@ -144,6 +144,5 @@ int main() {
     set_default_name2(s3);
     print_student_info2(s3);
 
-
     return 0;
 }
