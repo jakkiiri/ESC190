@@ -57,16 +57,7 @@ void change_name1_right_b(student1 *p_s) {
 // here, strcpy goes into the memory location of the string and copies all the values from "b" to name manually.
 // The pointer can't be changed to reference another memory block.
 
-// C equivilence of python name reassignment
-void change_name1_right_c(student1 *p_s) {
-    // this question is stupid
-    // the char array is assigned such that I cannot dereference the pointer.
-    // p_s->name = "b";
-    // as the pointer is assigned to a memory block
-    // BEEP
-    // I propose that name must be defined for char* name in the struct, as a dynamic pointer like python.
-    // then the following code will work
-}
+
 
 int main() {
     // Question 2
