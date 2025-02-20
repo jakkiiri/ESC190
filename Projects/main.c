@@ -5,8 +5,8 @@ int main(void)
     struct term *terms;
     int nterms;
     read_in_terms(&terms, &nterms, "cities.txt");
-    //lowest_match(terms, nterms, "Tor");
-    //highest_match(terms, nterms, "Tor");
+    lowest_match(terms, nterms, "Tor");
+    highest_match(terms, nterms, "Tor");
     
     struct term *answer;
     int n_answer;
