@@ -1,7 +1,7 @@
-#include "intlist.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "intlist.h"
 
 // Allocate memory for an object of type IntList, initialize
 // its data to equal the data in data_arr, and set its size
