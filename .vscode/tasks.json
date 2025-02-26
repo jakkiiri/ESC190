@@ -7,9 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\node.h",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\linkedlist.c",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\Lab_06.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Midterm_Practice\\intset.h",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Midterm_Practice\\intset.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Midterm_Practice\\intset_main.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
