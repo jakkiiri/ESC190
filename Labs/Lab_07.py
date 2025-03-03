@@ -38,8 +38,6 @@ class Queue:
         self.print_queue()
     
     def dequeue(self):
-        if (self.start + self.num_elems >= self.size):
-            end_index = (self.start + self.num_elems) % self.size
         data = self.list[self.start]
         self.list[self.start] = None
         self.start = (self.start + 1) % self.size

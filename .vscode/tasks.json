@@ -3,13 +3,13 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
-            "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "command": "C:\\Strawberry\\c\\bin\\gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Midterm_Practice\\intset.h",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Midterm_Practice\\intset.c",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Midterm_Practice\\intset_main.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\Q.h",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\Q.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\Lab_07.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
@@ -20,7 +20,7 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+            "detail": "compiler: C:\\Strawberry\\c\\bin\\gcc.exe"
         }
     ]
 }
