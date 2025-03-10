@@ -18,6 +18,7 @@ print(mincost(8, [1, 4, 5, 10]))
 # Part a
 # OPT(n) = min (1 + OPT(n - d)), where d are the options in denominations
 
+# greedy algorithm
 def compute_OPT(denominations, target):
     OPT = [float('inf')] * (target + 1)
     OPT[0] = 0
@@ -92,7 +93,7 @@ def canBeSegmented(s, wordDict):
             return True
     return False
 
-s = "LawrenceDingLawrenceDongPaulDingDong"
-wordDict = ["Lawrence", "Ding", "Dong", "Paul"]
+s = "catsandog"
+wordDict = ["cat", "cats", "and", "sand", "dog"]
 print(canBeSegmented(s, wordDict))
     
