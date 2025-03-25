@@ -7,9 +7,29 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\c_img.h",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\c_img.c",
-                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Labs\\Lab_09.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Projects\\Seamcarving\\c_img.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Projects\\Seamcarving\\seamcarving.c",
+                "C:\\Users\\Jakkii\\OneDrive - University of Toronto\\Documents\\GitHub\\ESC190\\Projects\\Seamcarving\\main.c",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: C:\\Strawberry\\c\\bin\\gcc.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe build active file",
+            "command": "C:\\Strawberry\\c\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
