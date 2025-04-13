@@ -42,11 +42,11 @@ def get_all_nodes(node):
 def dijsktra(node):
 
     S = [node]
-    d = {node.name:0}
+    d = {node.name: 0}
     prev = {}
 
     unexplored = get_all_nodes(node)
-    
+
     for n in unexplored:
         if n.name not in d:
             d[n.name] = 999999
@@ -57,9 +57,26 @@ def dijsktra(node):
             if con["node"] not in S:
                 if con["weight"] + d[cur.name] < d[con["node"].name]:
                     d[con["node"].name] = con["weight"] + d[cur.name]
+                    prev[con["node"].name] = cur.name
 
         S.append(cur)
 
-    return d
+    print(prev)
+    return d, prev
 
-print(dijsktra(C))
+
+def recover_path(prev, start, end):
+    path = []
+    current = end
+    while current != start:
+        path.append(current)
+        current = prev.get(current)
+        if current is None:
+            return None  # No path exists
+    path.append(start)
+    return path[::-1]
+
+
+distances, predecessors = dijsktra(C)
+print("Distances:", distances)
+print("Path from C to F:", recover_path(predecessors, "C", "F"))
