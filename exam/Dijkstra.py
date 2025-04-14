@@ -39,6 +39,9 @@ def get_all_nodes(node):
                 con["node"].visited = True
     return connections
 
+# Runtime Complexity of O(|V|^2)
+# To add a vertex to S, we must go through all vertices --> V*V = V^2  (watch absolute could have negative weights)
+
 def dijsktra(node):
 
     S = [node]
