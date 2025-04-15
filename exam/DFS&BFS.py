@@ -36,7 +36,7 @@ def BFS(node):
                 q.append(con)
                 con.visited = True
 
-BFS(C)
+BFS(E)
 
 A.visited = False
 B.visited = False
@@ -58,7 +58,7 @@ def DFS(node):
             if not con.visited:
                 q.append(con)
                 con.visited = True
-DFS(C)
+DFS(E)
 
 A.visited = False
 B.visited = False
@@ -75,5 +75,5 @@ def DFS_rec(node):
     for con in node.connections:
         if not con.visited:
             DFS_rec(con)
-DFS_rec(C)
+DFS_rec(E)
 
