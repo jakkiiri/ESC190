@@ -36,6 +36,7 @@ int main () {
     // 10
     change_int_1(p_p_a);
     printf("%d\n", a);
+    printf("%s\n", "hello world");
 
 
 
